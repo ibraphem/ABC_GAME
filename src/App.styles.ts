@@ -1,8 +1,9 @@
 import styled, { createGlobalStyle } from 'styled-components';
+import bg from "../src/img/background.jpg"
 
 export const GlobalStyle = createGlobalStyle`
   body {
-    background: center / cover url("./img/calendar_backdrop.jpg");
+    background: center / cover url(${bg});
     margin: 0;
     height: 100vh;
   }
