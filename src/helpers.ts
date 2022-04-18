@@ -1,3 +1,14 @@
+import apple from "../src/img/apple.png"
+import ball from "../src/img/ball.png"
+import cat from "../src/img/cat.png"
+import dog from "../src/img/dog.png"
+import elephant from "../src/img/elephant.png"
+import fan from "../src/img/fan.png"
+import goat from "../src/img/goat.png"
+import house from "../src/img/house.png"
+import ice from "../src/img/ice.png"
+import jug from "../src/img/jug.png"
+
 /**
  * Found this on Stackoverflow https://stackoverflow.com/questions/6274339/how-can-i-shuffle-an-array
  * Shuffles array in place. ES6 version
@@ -24,7 +35,7 @@ export const hatchArray: HatchType[] = [
   {
     nr: 'A',
     img: './img/1.jpg',
-    forImage: "../src/img/apple.png",
+    forImage: apple,
     text:
       'Apple',
     open: false,
@@ -32,42 +43,42 @@ export const hatchArray: HatchType[] = [
   {
     nr: "B",
     img: './img/2.jpg',
-    forImage: "../src/img/ball.png",
+    forImage: ball,
     text:'Ball',
     open: false
   },
   {
     nr: 'C',
     img: './img/3.jpg',
-    forImage: "../src/img/cat.png",
+    forImage: cat,
     text: "Cat",
     open: false
   },
   {
     nr: 'D',
     img: './img/4.jpg',
-    forImage: "../src/img/dog.png",
+    forImage: dog,
     text: "Dog",
     open: false
   },
   {
     nr: 'E',
     img: './img/5.jpg',
-    forImage: "../src/img/elephant.png",
+    forImage: elephant,
     text: 'Elephant',
     open: false
   },
   {
     nr: 'F',
     img: './img/6.jpg',
-    forImage: "../src/img/fan.png",
+    forImage: fan,
     text: 'Fan',
     open: false
   },
   {
     nr: 'G',
     img: './img/7.jpg',
-    forImage: "../src/img/goat.png",
+    forImage: goat,
     text: 'Goat',
     open: false
   },
@@ -75,20 +86,20 @@ export const hatchArray: HatchType[] = [
     nr: 'H',
     img: './img/8.jpg',
     forImage: "../src/img/house.png",
-    text: 'House',
+    text: house,
     open: false
   },
   {
     nr: 'I',
     img: './img/9.jpg',
-    forImage: "../src/img/ice.png",
+    forImage: ice,
     text: "Ice",
     open: false
   },
   {
     nr: 'J',
     img: './img/10.jpg',
-    forImage: "../src/img/jug.png",
+    forImage: jug,
     text:
       'Jug',
     open: false
