@@ -131,8 +131,8 @@ export const hatchArray: HatchType[] = [
   {
     nr: 'H',
     img: eight,
-    forImage: "../src/img/house.png",
-    text: house,
+    forImage: house,
+    text: "House",
     open: false
   },
   {
