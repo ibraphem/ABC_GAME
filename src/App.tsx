@@ -49,6 +49,10 @@ const App: React.FC = () => {
   return (
     <>
     <Header theAlphabet={theAlphabet} restart={restart} />
+   <div style={{marginTop: 50}}>
+  <iframe height={500} width={300} src="http://devapps.intelligra.io:108/" />
+</div>
+
     <StyledApp>
       <GlobalStyle />
  
