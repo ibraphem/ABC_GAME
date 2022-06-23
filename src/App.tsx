@@ -49,8 +49,7 @@ const App: React.FC = () => {
   return (
     <>
     <Header theAlphabet={theAlphabet} restart={restart} />
-
-
+    
     <StyledApp>
       <GlobalStyle />
  
